@@ -14,7 +14,7 @@ const CartButton = (props) => {
 
   return (
     <button onClick={toggleCartHandler} className={classes.button}>
-      <span>My Cart</span>
+      <div><span>My Cart</span></div>
       <span className={classes.badge}>{cartQuantity}</span>
     </button>
   );
